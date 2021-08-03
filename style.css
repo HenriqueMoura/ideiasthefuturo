@@ -1,0 +1,105 @@
+body{
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+nav{
+    background-color: #FFF ;
+}
+.parallax {
+    background-image: url('./img/background.png');
+    min-height: 700px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.first-header h2{
+  color: white;
+  font-size: 34px;
+}
+.btn-inscrever{
+  color: white;
+  font-size: 24px;
+  text-shadow: 0 0 10px rgb(0 0 0 / 30%);
+  background-color: #F05B71;
+  box-shadow: 0 0 10px 0 #f05b71;
+}
+.btn-inscrever:hover{
+color: white;
+}
+
+.btn-oficina{
+  font-size: 24px;
+  font-weight: bolder;
+  text-shadow: 0 0 10px rgb(255 255 255 / 30%);
+  fill: #2CB9E8;
+  color: #2CB9E8;
+  background-color: #FFF;
+  box-shadow: 0 0 10px 0 #dfdfdf;
+}
+.content-descript-program{
+  background: #2CB9E8;
+  color: white;
+}
+.content-descript-program h3{
+  font-size: 40px;
+}
+.content-descript-program p {
+  font-size: 25px;
+}
+.content-conheca img{
+  max-width: 100%;
+  min-width: 300px
+}
+.content-conheca h3{
+  font-size: 40px;
+  margin: 20px 30px 40px 30px;
+}
+.crie-games-1 .card-body{
+  background: #6EC1E4;
+  color: white;
+}
+.crie-games-1 .card-image{
+  background: #F2F2F2;
+}
+.crie-games-1 .card-body h3 { 
+  font-size: 45px;
+  font-weight: bolder;
+}
+.crie-games-1 .card-body p { 
+  font-size: 20px;
+}
+.crie-games-2 .card-body{
+  background: #E85970;
+  color: white;
+}
+.crie-games-2 .card-image{
+  background: #F2F2F2;
+}
+.crie-games-2 .card-body h3 { 
+  font-size: 45px;
+  font-weight: bolder;
+}
+.crie-games-2 .card-body p { 
+  font-size: 20px;
+}
+
+.crie-games-2 .card-body .btn-oficina {
+  color: #E85970;
+}
+.default-info{
+  margin:  80px auto;
+}
+.default-video strong{
+  font-weight: bolder;
+}
+section.default-video.container{
+  margin: 50px auto
+}
+.ads ul{
+  text-decoration: none;
+  list-style: none;
+}
+.ads ul li {
+  margin: 0 10px;
+}
