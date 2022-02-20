@@ -1,5 +1,9 @@
 body {
   margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
   font-family: "Roboto", sans-serif;
 }
 nav {
@@ -62,6 +66,7 @@ nav {
 .crie-games-1 .card-image {
   background: #f2f2f2;
 }
+
 .crie-games-1 .card-body h3 {
   font-size: 45px;
   font-weight: bolder;
@@ -123,4 +128,10 @@ section.default-video.container {
 }
 .first-header h2 {
   font-weight: bolder;
+}
+
+@media(min-width:720px){
+  .malena{
+    width: 450px !important;
+  }
 }
